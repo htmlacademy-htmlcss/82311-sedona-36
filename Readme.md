@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Виктория](https://up.htmlacademy.ru/htmlcss/36/user/82311).
-* Наставник: `Неизвестно`.
+* Наставник: [Надежда Палаш](https://htmlacademy.ru/profile/id1191579).
+check
 
 ---
 
