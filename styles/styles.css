@@ -84,8 +84,8 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0px;
-  border: 0px;
+  padding: 0;
+  border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -130,7 +130,10 @@ img {
   background-color: #82B3D3;
   color: #ffffff;
 }
-
+.advantages-item-light-blue{
+  background-color: #83B3D3;
+  color: #000000;
+}
 
 .advantages-text {
   font-weight: 400;
@@ -155,6 +158,13 @@ img {
   line-height: 21px;
   text-align: center;
   color:  #333333;
+}
+.service-item {
+  background-color: #83B3D3;
+}
+
+.service-item-white {
+  background-color: #ffffff;
 }
 
 .service-lead {
@@ -218,6 +228,14 @@ img {
   background-color: #756157;
 }
 
+.subscribe-section {
+  background-color: #82B3D3;
+  background-image: url("../images/subscribe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 .subscribe-title {
   font-weight: 700;
   font-size: 30px;
@@ -235,8 +253,27 @@ img {
   color: #ffffff;
 }
 
+.newsletter-button {
+  font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #82B3D3;
+}
 
-
+.contacts-phone {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
 
 
 .content-header-title {
@@ -245,8 +282,12 @@ img {
   line-height: 78px;
   color: #ffffff;
 }
-
-
+.filter-wrapper {
+  background-color: #82B3D3;
+  background-image: url("../images/filter.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .breadcrams-link {
   font-weight: 400;
@@ -264,11 +305,33 @@ img {
   color: #ffffff;
 }
 
-.control-input {
+.control {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
+}
+
+.button-submit {
+  background: #82B3D3;
+  border-radius: 4px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button-reset {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .products-text {
@@ -301,7 +364,7 @@ img {
   color: #333333;
 }
 
-.product-button button {
+.product-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -335,11 +398,21 @@ img {
   background-color: #F2F2F2;
 }
 
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  border-radius: 4px;
+}
+
 .pagination-current{
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -348,14 +421,22 @@ img {
   border-radius: 4px;
 }
 
-.pagination-link {
+.pagination-dots {
+  background-color: #ffffff;
+}
+
+.newsletter-title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 36px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
-  background-color: #82B3D3;
-  border-radius: 4px;
+  color: #000000;
+}
+
+.newsletter-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
 }
