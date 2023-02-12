@@ -227,6 +227,8 @@ img {
   text-align: center;
   color: #000000;
   text-transform: uppercase;
+  margin: 0 auto;
+  width: 505px;
 }
 
 .service-about {
@@ -235,6 +237,16 @@ img {
   line-height: 26px;
   text-align: center;
   color: #333333;
+  padding-left: 355px;
+  padding-right: 355px;
+  padding-top: 20px;
+  margin: 0;
+  margin-bottom: 64px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .service-title {
@@ -261,6 +273,12 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  padding-left: 451,5px;
+  padding-right: 451,5px;
+  padding-top: 96px;
+  margin: 0;
+
+
 }
 
 .search-description {
@@ -269,6 +287,9 @@ img {
   line-height: 26px;
   text-align: center;
   color: #333333;
+  padding-left: 304px;
+  padding-right: 304px;
+  margin: 0;
 }
 
 .search-button {
@@ -279,13 +300,30 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756157;
+  padding-left: 462px;
+  padding-right: 462px;
+  margin: 0;
 }
+
 
 .subscribe-section {
   background-color: #82B3D3;
   background-image: url("../images/subscribe.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-wrapper {
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -296,6 +334,9 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  padding-left: 398px;
+  padding-right: 398px;
+  margin: 0;
 }
 
 .subscribe-description {
@@ -304,6 +345,9 @@ img {
   line-height: 26px;
   text-align: center;
   color: #ffffff;
+  padding-left: 362,5px;
+  padding-right: 362,5px;
+  margin: 0;
 }
 
 .newsletter-button {
@@ -315,6 +359,8 @@ img {
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #82B3D3;
+  padding-left: 258px;
+  padding-right: 258px;
 }
 
 .contacts-phone {
