@@ -60,7 +60,6 @@ body {
   border: transparent;
 }
 
-
 .box-shadow-container {
   width: 1200px;
   min-height: 100%;
@@ -155,13 +154,11 @@ body {
   bottom: -6px;
 }
 
-
 img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
 }
-
 
 .favorite-hotels {
   font-weight: 400;
@@ -280,8 +277,6 @@ img {
   padding-bottom: 81px;
 }
 
-
-
 .service-item-white {
   background-color: #ffffff;
 }
@@ -326,7 +321,6 @@ img {
   padding: 0;
   text-align: center;
   list-style-type: none;
-
 }
 
 .service-title {
@@ -569,7 +563,7 @@ img {
   flex-wrap: nowrap;
 }
 
-.btn-container {
+.button-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -633,7 +627,6 @@ img {
 .product-image {
   margin-bottom: 16px;
 }
-
 
 .breadcrams-link {
   font-weight: 400;
@@ -730,8 +723,6 @@ img {
   color: #ffffff;
   background-color: #756157;
 }
-
-
 
 .product-favorites {
   font-weight: 700;
@@ -830,7 +821,7 @@ img {
   text-transform: uppercase;
 }
 
-  .newsletter-text {
+.newsletter-text {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -855,5 +846,5 @@ img {
   line-height: 24px;
   background-color: #F2F2F2;
   border-style: none;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
 }
